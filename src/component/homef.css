@@ -1,0 +1,600 @@
+*
+{
+    
+}
+@font-face {
+    font-family: Continents;
+    src: url(./Fonts/Continents\ Boundless\ Demo.otf);
+}
+@font-face {
+    font-family: Alexer;
+    src: url(./Fonts/AlexerPro-Light.otf);
+}
+@font-face {
+    font-family: Opentech;
+    src: url(./Fonts/OpenTECHNeue-OutlineDEMO.otf);
+}
+.mainpage
+{
+    width: 100%;
+    height: 707px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background: linear-gradient(to top, #000000ba, #000000ba), url(./Images/final\ living\ room.jpg) no-repeat bottom;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+.name
+{
+    font-family: Continents;
+    font-weight: normal;
+    margin-right: 17%;
+    margin-left: 2%;
+
+}
+.margins
+{
+}
+.links
+{
+    font-family: Alexer;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.anchor
+{
+    font-family: Alexer;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.anchor a
+{
+    text-decoration: none;
+}
+.anchor a:visited
+{
+    color: black;
+}
+.anchor a:hover
+{
+    color: #564f4f;
+    opacity: 90%;
+}
+/* .mainpage:hover
+{
+    opacity: 1;
+} */
+.part1
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part2
+{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 22%;
+    margin-right: 2%;
+}
+.part3
+{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-right: 2%;
+    margin-bottom: 22%;
+}
+.design
+{
+    font-family: Opentech;
+    font-size: 100px;
+    color: white;
+    margin-bottom: -15%;
+}
+.part1 h1
+{
+    font-family: Alexer;
+    font-size: 140px;
+    color: white
+}
+.content
+{
+    font-family: Alexer;
+    color: white;
+    text-align: center;
+    font-family: Alexer;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.nameplus
+{
+    font-family: Alexer;
+}
+.name
+{
+    font-family: Continents;
+    font-weight: normal;
+    margin-right: 17%;
+    margin-left: 2%;
+    letter-spacing: 0.5px;
+
+}
+.btn
+{
+    height: 60px;
+    width: 200px;
+    background: none;
+    border: 1px solid whitesmoke;
+    border-radius: 45px;
+    color: white;
+    font-family: Alexer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    margin-top: -10%;
+}
+.btn:hover
+{
+    background-color: whitesmoke;
+    color: black;
+
+}
+.subpage
+{
+    background-color: whitesmoke;
+    height: 807px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header
+{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Alexer;
+    background-color: whitesmoke;
+    margin-left: -7.5%;
+}
+
+.viewall
+{
+    justify-content: flex-end;
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.viewall:hover
+{
+    color: #948686;
+
+}
+.viewall2:hover
+{
+    color: #948686;
+}
+.viewall:visited
+{
+    color: black;
+}
+.header h1
+{
+    margin-right: 72%;
+}
+.products
+{
+    display: flex;
+}
+.product
+{
+    width: 308px;
+    height: 400px;
+    margin: 1%;
+}
+.product1
+{
+    width: 100%;
+    height: 85%;
+    background-color: #000000ba;
+    overflow: hidden;
+}
+.product1 img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: .5s ease;
+}
+.product1 img:hover
+{
+    transform: scale(1.1);
+}
+.product2 span:hover
+{
+    color: #948686;
+    cursor: pointer;
+}
+.product2
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    flex-direction: column;
+}
+.product2 span
+{
+    margin-left: 5%;
+    font-family: Alexer;
+}
+.price
+{
+    color: #3f3f3f;
+}
+.thirdpage
+{
+    background-color: #1b1b1b;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url("./Images/background5.jpg");
+    background-size: 100%;
+    
+}
+.header2
+{
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 80px;
+    color: whitesmoke;
+    font-family: Alexer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thirdholder
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 720px;
+}
+.discover1
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dpart1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dpart1 img
+{
+    width: 80%;
+    border-radius: 1%;
+}
+.dpart2
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.dpart2 h1
+{
+    font-family: Alexer;
+    color: white;
+    font-size: 40px;
+}
+.content2
+{
+    font-family: Alexer;
+    color: white;
+    font-family: Alexer;
+    font-size: 20px;
+}
+.empty
+{
+    margin-top: 4%;
+}
+.viewall2
+{
+    justify-content: flex-end;
+    margin-top: 4%;
+    font-size: 20px;
+    text-decoration: underline;
+    transition: 0.3s;
+    color: white;
+}
+.viewall2:visited
+{
+    color: white;
+}
+.fourpage
+{
+    width: 100%;
+    height: 707px;
+    background-color: whitesmoke;
+}
+.fourholder
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.fpart1
+{
+    width: 55%;
+    height: 100%;
+    color: black;
+    font-family: Alexer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border-bottom: 1px solid #1b1b1b; */
+
+}
+.fpart1 h1
+{
+    font-size: 40px;
+    margin-left: 8%;
+}
+.contentofSTRENGTHS
+{
+    font-size: 20px;
+    margin-left: 8%;
+}
+.entries
+{
+    display: flex;
+
+}
+.entry1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+}
+.entry1 span
+{
+    text-align: center;
+}
+.entry2 span
+{
+    text-align: center;
+}
+.entry2
+{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.num
+{
+    font-size: 40px;
+}
+.numspan
+{
+    font-size: 25px;
+}
+.fpart2
+{
+    width: 45%;
+    height: 100%;
+    color: black;
+    font-family: Alexer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid #1b1b1b; */
+}
+.fpart2 img
+{
+    height: 80%;
+    width: 80%;
+    border-radius: 1%;
+}
+.pagefive
+{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 707px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog
+{
+    width: 30%;
+    height: 100%;
+}
+.blogholder
+{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog img
+{
+    height: 50%;
+    border-radius: 1%;
+}
+.blog h2
+{
+    font-family: Alexer;
+    font-size: 30px;
+    transition: 0.3s;
+    text-align: center;
+}
+.blog h2:hover
+{
+    color: #948686;
+}
+.btn2
+{
+
+    height: 40px;
+    width: 100px;
+    background: none;
+    border: 1px solid #1b1b1b;
+    border-radius: 45px;
+    color: black;
+    font-family: Alexer;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+.btn2:hover
+{
+    background-color: #1b1b1b;
+    color: whitesmoke;
+
+}
+.contact
+{
+    height: 400px;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    
+}
+.contact h1
+{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-family: Alexer;
+}
+.contact span
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    font-family: Alexer;
+    transition: 0.3s;
+
+}
+.contact span:hover
+{
+    color: #948686;
+}
+.contact1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.address
+{
+    text-decoration: none !important;
+    font-size: 28px !important;
+    text-align: center;
+}
+.linkholder
+{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link
+{
+    transition: 0.3s;
+    margin:2% 8%;
+    
+}
+.link:hover
+{
+    color: #948686;
+}
+.border
+{
+    width: 300px;
+    border: 1px solid whitesmoke;
+    margin-top: 2%;
+}
+.address:hover
+{
+    color: whitesmoke !important;
+}
+.footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #948686;
+}
+.footer span
+{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
