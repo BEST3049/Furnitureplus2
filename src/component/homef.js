@@ -18,10 +18,10 @@ import Furnitureplus from "./Images/Furnitureplus.jpeg";
 function HomeP()
 {
     useEffect(()=>{
-        AOS.init({duration:2000})
+        AOS.init({duration:2500})
     }, [])
     return(
-        <div>
+        <div className="holder">
            <nav>
                 <div className="navbar">
                     <div className=" name"><span>Furniture</span><span className="nameplus">+</span></div>
