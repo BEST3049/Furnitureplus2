@@ -44,7 +44,7 @@ function HomeP()
                         }}
                     />
                 </h1>
-                <button className="btn">View Latest Collection</button>
+                <button className="btn">View Latest Collections</button>
                 </div>
                 <div className="part2">
                     <span className="content">Our goal at Furniture+ is to work with you to design an environment that says who you are and what you enjoy.</span>
