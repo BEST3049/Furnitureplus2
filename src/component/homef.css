@@ -30,6 +30,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to top, #000000ba, #000000ba), url(./Images/final\ living\ room.jpg) no-repeat bottom;
+
 }
 .navbar
 {
